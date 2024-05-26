@@ -47,7 +47,7 @@ body {
   .balance-img {
     width: 90px;
     height: 90px;
-    top: 94px;
+    top: 5px;
     left: 1100px;
   }
   .button-img {
@@ -55,5 +55,15 @@ body {
     left: 850px;
     width: 800px;
     top: 120px;
+  }
+  body {
+    background-size: 2711px;
+  }
+  .button-rocket-img {
+    margin-top: 300px;
+    margin-left: 450px;
+    top: 50px;
+    width: 300px;
+    height: 300px;
   }
 }
