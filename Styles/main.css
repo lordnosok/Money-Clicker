@@ -5,6 +5,7 @@ body {
   background-image: url(/Images/main-background.png);
   background-repeat: no-repeat;
   background-size: 2011px;
+  color: #fff;
 }
 .pifg {
   display: flex;
@@ -47,20 +48,20 @@ body {
   .balance-img {
     width: 90px;
     height: 90px;
-    top: 5px;
+    top: 2px;
     left: 1100px;
   }
   .button-img {
     position: fixed;
     left: 850px;
     width: 800px;
-    top: 120px;
+    top: px;
   }
   body {
     background-size: 2711px;
   }
   .button-rocket-img {
-    margin-top: 300px;
+    margin-top: 250px;
     margin-left: 450px;
     top: 50px;
     width: 300px;
