@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,300");
+
+body {
+}
+.pifg {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.balance-img {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 95px;
+  left: 835px;
+}
+.balance {
+  font-size: 100px;
+  align-self: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600; /* 400 is regular, 300 is light, 700 is bold */
+}
