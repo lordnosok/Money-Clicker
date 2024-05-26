@@ -41,4 +41,10 @@
     top: 94px;
     left: 1150px;
   }
+  .button-img {
+    position: fixed;
+    left: 850px;
+    width: 800px;
+    top: 120px;
+  }
 }
