@@ -33,10 +33,15 @@ body {
   top: 175px;
   left: 600px;
 }
-.button-img {
-  align-items: center;
-  justify-content: center;
-  width: 600px;
+.button-rocket-click {
+  background-color: transparent;
+  border: none;
+  margin-left: 1600px;
+  margin-top: 350px;
+}
+.button-rocket-img {
+  width: 250px;
+  height: 250px;
 }
 @media (min-width: 1921px) {
   .balance-img {
