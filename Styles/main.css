@@ -12,13 +12,27 @@
   width: 90px;
   height: 90px;
   top: 95px;
-  left: 835px;
+  left: 790px;
 }
 .balance {
   font-size: 100px;
   align-self: center;
   font-family: "Open Sans", sans-serif;
   font-weight: 600; /* 400 is regular, 300 is light, 700 is bold */
+}
+.button-click {
+  position: fixed;
+  width: 99px;
+  height: 99px;
+  background-color: transparent;
+  border: none;
+  top: 175px;
+  left: 600px;
+}
+.button-img {
+  align-items: center;
+  justify-content: center;
+  width: 600px;
 }
 @media (min-width: 1921px) {
   .balance-img {
