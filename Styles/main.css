@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,300");
 
-
 .pifg {
   display: flex;
   justify-content: center;
@@ -20,4 +19,12 @@
   align-self: center;
   font-family: "Open Sans", sans-serif;
   font-weight: 600; /* 400 is regular, 300 is light, 700 is bold */
+}
+@media (min-width: 1921px) {
+  .balance-img {
+    width: 90px;
+    height: 90px;
+    top: 95px;
+    left: 835px;
+  }
 }
