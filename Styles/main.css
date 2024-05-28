@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,300");
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* main */
 body {
   background-image: url(/Images/main-background.png);
   background-repeat: no-repeat;
@@ -39,6 +46,9 @@ body {
   border: none;
   margin-left: 1600px;
   margin-top: 350px;
+  color: #fff;
+  font-family: Silkscreen;
+  font-size: 23px;
 }
 .button-rocket-img {
   width: 250px;
@@ -67,4 +77,38 @@ body {
     width: 300px;
     height: 300px;
   }
+}
+/* modal */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.201);
+  opacity: 1;
+  transition: opacity 0.5s linear;
+  background-image: url(/Images/dark-black-background-design-with-stripes_1017-38064.png);
+  background-size: cover;
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 1030px;
+  min-height: 699px;
+  padding: 10px;
+  background-color: #333232a8;
+  transform: translate(-250%, -50%);
+  transition: transform 0.3s ease-in;
+}
+.modal.effect {
+  transform: translate(-50%, -50%);
 }

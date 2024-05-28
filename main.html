@@ -20,13 +20,20 @@
         />
       </button>
     </div>
-    <button class="button-rocket-click">
+    <button class="button-rocket-click" data-modal-open>
       <img
         class="button-rocket-img"
         src="Images/rocket-boost.svg"
         alt="rocket-boost"
       />
+      <h1>Boost</h1>
     </button>
+    <div class="backdrop is-hidden" data-backdrop>
+      <div class="modal" data-modal>
+        <button class="close" data-modal-close>X</button>
+      </div>
+    </div>
     <script src="/Scripts/main.js"></script>
+    <script src="/Scripts/main-modal.js"></script>
   </body>
 </html>
