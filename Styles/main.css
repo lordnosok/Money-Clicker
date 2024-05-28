@@ -23,7 +23,7 @@ body {
   position: absolute;
   width: 90px;
   height: 90px;
-  margin-top: 90px;
+  margin-top: 1.5%;
   margin-right: 400px;
 }
 .balance {
@@ -45,7 +45,7 @@ body {
   background-color: transparent;
   border: none;
   margin-left: 1600px;
-  margin-top: 350px;
+  margin-top: 450px;
   color: #fff;
   font-family: Silkscreen;
   font-size: 23px;
@@ -56,10 +56,11 @@ body {
 }
 @media (min-width: 1921px) {
   .balance-img {
+    position: absolute;
     width: 90px;
     height: 90px;
-    top: 2px;
-    left: 1100px;
+    bottom: 18px;
+    left: 1000px;
   }
   .button-img {
     position: fixed;
@@ -69,6 +70,13 @@ body {
   }
   body {
     background-size: 2711px;
+  }
+  .button-rocket-click {
+    margin-top: 550px;
+    margin-left: 1740px;
+  }
+  .button-rocket-boost-text {
+    margin-left: 60%;
   }
   .button-rocket-img {
     margin-top: 250px;
